@@ -1,0 +1,9 @@
+git clone https://github.com/terziyskiPT/Linux-EXAM.git
+cd Linux-EXAM
+mkdir Ex{1..4}
+mv ~/WORK_DIR/exercise1.txt ~/WORK_DIR/Linux-EXAM/Ex1
+mv ~/WORK_DIR/exercise2.txt ~/WORK_DIR/Linux-EXAM/Ex2
+mv ~/WORK_DIR/exercise3.txt ~/WORK_DIR/Linux-EXAM/Ex3
+mv ~/WORK_DIR/exercise4.txt ~/WORK_DIR/Linux-EXAM/Ex4
+git add --all
+git commit -m "Exercises 1-4 completed"

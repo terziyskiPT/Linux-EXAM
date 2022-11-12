@@ -1,0 +1,9 @@
+sudo adduser examuser
+sudo addgroup examgroup strypes
+sudo usermod -aG examgroup examuser
+sudo usermod -aG strypes examuser
+cp /etc/passwd .
+sudo chown examuser:strypes passwd
+sudo chmod ug+x passwd    or sudo chmod 752 passwd
+sudo chmod o=w passwd
+

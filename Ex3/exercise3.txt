@@ -1,0 +1,5 @@
+gedit fruits.txt
+cut -d "#" -f 1 fruits.info | sort
+sort -t "#" -k 3 -n fruits.info
+sort -t "#" -nr -k 3 fruits.info | head -n 1 | cut -d "#" -f 1 > fruit
+sort -t "#" -n -k 3 fruits.info | head -n 3
