@@ -7,3 +7,4 @@ mv ~/WORK_DIR/exercise3.txt ~/WORK_DIR/Linux-EXAM/Ex3
 mv ~/WORK_DIR/exercise4.txt ~/WORK_DIR/Linux-EXAM/Ex4
 git add --all
 git commit -m "Exercises 1-4 completed"
+git push
